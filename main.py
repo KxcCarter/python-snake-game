@@ -19,6 +19,7 @@ scoreboard = Scoreboard()
 def end_game():
     global game_is_on
     game_is_on = False
+    scoreboard.game_over()
 
 
 screen.listen()
